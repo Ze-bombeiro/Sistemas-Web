@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Copilot - Como Ver o Consumo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    #cabecalho {
+      background-color: #34495e;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 3px solid #3498db;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .section {
+      background-color: #34495e;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid #3498db;
+    }
+
+    .step {
+      background-color: #2c3e50;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #3498db;
+    }
+
+    .highlight {
+      background-color: #e74c3c;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+
+    .link-box {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    .link-box a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link-box a:hover {
+      text-decoration: underline;
+    }
+
+    .price-info {
+      background-color: #f39c12;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+
+    .navbar {
+      background-color: #2c3e50;
+      border: none;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+      color: #ecf0f1;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+      background-color: #34495e;
+      color: white;
+    }
+
+    .navbar-inverse .navbar-brand {
+      color: #3498db;
+    }
+
+    #logo {
+      width: 300px;
+      height: 150px;
+      vertical-align: middle;
+    }
+
+    .icon {
+      font-size: 1.2em;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="cabecalho">
+    <img id="logo" src="SeboDeTraca.png" alt="Sebo de traça">
+    <h2>GitHub Copilot - Guia de Consumo</h2>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://github.com/Ze-bombeiro/Sistemas-Web">Sistemas Web</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">🏠 Home</a></li>
+        <li><a href="Livros.html">📚 Livros</a></li>
+        <li><a href="Discos.html">💿 Discos</a></li>
+        <li class="active"><a href="Copilot-Consumo.html">🤖 Copilot</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <h3><span class="icon">👤</span>Para Contas Individuais</h3>
+      
+      <div class="step">
+        <h4>1. Acessar Configurações</h4>
+        <p>• Clique na sua foto de perfil no GitHub</p>
+        <p>• Selecione <span class="highlight">Settings</span></p>
+      </div>
+
+      <div class="step">
+        <h4>2. Ver Cobrança e Uso</h4>
+        <p>• No menu lateral, clique em <span class="highlight">Billing and plans</span></p>
+        <p>• Encontre a seção <span class="highlight">Plans and usage</span></p>
+      </div>
+
+      <div class="price-info">
+        <strong>💰 Copilot Individual:</strong> $10/mês ou $100/ano
+      </div>
+
+      <div class="link-box">
+        <a href="https://github.com/settings/billing" target="_blank">
+          🔗 Acesso Direto - Cobrança Individual
+        </a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3><span class="icon">🏢</span>Para Organizações</h3>
+      
+      <div class="step">
+        <h4>1. Configurações da Organização</h4>
+        <p>• Vá para a página da sua organização</p>
+        <p>• Clique na aba <span class="highlight">Settings</span></p>
+        <p>• Selecione <span class="highlight">Billing and plans</span></p>
+      </div>
+
+      <div class="step">
+        <h4>2. Métricas Disponíveis</h4>
+        <p>• Total de licenças ativas</p>
+        <p>• Custo mensal atual</p>
+        <p>• Histórico de uso por usuário</p>
+        <p>• Relatórios de atividade</p>
+      </div>
+
+      <div class="price-info">
+        <strong>💰 Copilot Business:</strong> $19/usuário/mês
+      </div>
+
+      <div class="link-box">
+        <a href="https://github.com/organizations/[SUA-ORG]/settings/billing" target="_blank">
+          🔗 Acesso Direto - Cobrança Organizacional
+        </a>
+        <br><small>(Substitua [SUA-ORG] pelo nome da sua organização)</small>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3><span class="icon">📊</span>Métricas de Uso</h3>
+      
+      <div class="step">
+        <h4>Informações que você pode acompanhar:</h4>
+        <ul>
+          <li><strong>Sugestões aceitas:</strong> Número de sugestões do Copilot aceitas</li>
+          <li><strong>Sugestões mostradas:</strong> Total de sugestões apresentadas</li>
+          <li><strong>Taxa de aceitação:</strong> Percentual de sugestões aceitas</li>
+          <li><strong>Linguagens mais usadas:</strong> Quais linguagens você mais usa</li>
+          <li><strong>Tempo economizado:</strong> Estimativa de produtividade</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3><span class="icon">🔧</span>Links Úteis</h3>
+      
+      <div class="row">
+        <div class="col-md-6">
+          <div class="link-box">
+            <a href="https://github.com/settings/copilot" target="_blank">
+              ⚙️ Configurações do Copilot
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="link-box">
+            <a href="https://docs.github.com/copilot" target="_blank">
+              📖 Documentação Oficial
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3><span class="icon">❓</span>Perguntas Frequentes</h3>
+      
+      <div class="step">
+        <h4>Como cancelo minha assinatura?</h4>
+        <p>Settings → Billing and plans → Manage subscription → Cancel subscription</p>
+      </div>
+
+      <div class="step">
+        <h4>Os dados são em tempo real?</h4>
+        <p>Os dados são atualizados diariamente, não em tempo real.</p>
+      </div>
+
+      <div class="step">
+        <h4>Posso ver o uso de outros na organização?</h4>
+        <p>Sim, administradores podem ver métricas de todos os membros.</p>
+      </div>
+    </div>
+
+    <div class="section" style="text-align: center; background-color: #27ae60;">
+      <h3><span class="icon">🎯</span>Resumo Rápido</h3>
+      <p><strong>Individual:</strong> github.com/settings/billing</p>
+      <p><strong>Organização:</strong> github.com/organizations/[SUA-ORG]/settings/billing</p>
+      <p><strong>Configurações:</strong> github.com/settings/copilot</p>
+    </div>
+  </div>
+
+  <footer style="text-align: center; padding: 20px; color: #bdc3c7;">
+    <p>📚 Guia criado para ajudar com GitHub Copilot | 
+       <a href="https://github.com/Ze-bombeiro/Sistemas-Web" style="color: #3498db;">Sistemas Web</a>
+    </p>
+  </footer>
+</body>
+</html>
